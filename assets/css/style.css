@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@200;300;400;500;600;700;800&family=Lora:ital,wght@0,400;1,400;1,500&family=Montserrat:wght@300;400;500;600;700;800&family=Open+Sans:wght@300;400;500;600&family=Poppins:wght@300;500;600&family=Raleway:wght@500;600;800&family=Roboto+Condensed:wght@700;800;900&family=Roboto+Slab:wght@200;300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --color-black: #2D2D2D;
+    --color-green: #009379;
+    --color-grey:  #F3F3F3;
+    --color-pink:  #F3AFA8;
+    --color-red:   #FF6250;
+    --color-white: #fff;
+    --color-fblack:#000;
+}
+
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+header , nav, section {
+    background-color:#fff;
+}
+
+.navbar-main {
+    width: 80%;
+    height: 80px;
+    background-color: var(--color-white);
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.d-flex {
+    display: flex;
+    gap: 30px;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.navbar-logo a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--color-black)
+}
+
+.nav-list ul li a{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px; 
+    color: var(--color-black);
+    text-decoration-line: underline;
+}
+
+/* Header section starts here  */
+
+.section-about-content {
+    width: 80%;
+    margin: auto;
+    height: 720px;
+    background-color:var(--color-white);
+
+}
+
+.header-content-section {
+    width: 40%;
+    height: 720px;
+    margin-top: 165px;
+    margin-bottom: 170px;
+}
+
+.header-content-naming {
+    font-size: 20px;
+    font-weight: 600;
+    color:var(--color-black)
+}
+
+.header-content-heading {
+    font-size: 100px;
+    font-weight: 600;
+    margin-top: 46px;
+    margin-bottom: 50px;
+    color: var(--color-black);
+}
+
+.header-content-par {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    width: 80%;
+}
+
+.header-image-section {
+    width: 40%;
+    height: 720px;
+    margin-top: 77px;
+    position: relative;
+}
+
+.header-image-section .header-image {
+    width: 100%;
+    height: 100%;
+}
+
+.header-image-section .arrow-1 {
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.header-image-section .arrow-2 {
+    position: absolute;
+    bottom: 250px;
+    right: 60px ;
+}
+
+.header-image-section  .rectangle-1 {
+    position: absolute;
+    top: -10px;
+    right: 60px;
+}
+
+.header-image-section .rectangle-2 {
+    position: absolute;
+    bottom: 230px;
+    left: -60px;
+}
+
+/* Next Section named Company starts  */
+
+.section-companies {
+    width: 80%;
+    height: 180px;
+    margin: auto;
+    align-items: center;
+}
+/* Next Section named Skills starts  */
+
+.section-skills-main {
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 150px;
+}
+
+.section-skills-content {
+    width: 80%;
+    margin: auto;
+    
+}
+
+.section-skills h2 {
+    font-size: 27px;
+    font-weight: 600;
+    margin-top:  63px;
+    margin-bottom: 19px;
+   
+}
+
+.section-skills-pars {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    width: 90%;
+    margin: auto;
+
+}
+
+.section-gallery {
+    width: 80%;
+    height: 1100px;
+    margin: auto;
+     
+}
+
+.gallery-heading {
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 57px;
+    text-align: center; 
+}
+
+.gallery-project {
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    column-gap: 45px;
+    row-gap: 60px;
+}
+
+
+.gallery-project-imgs h4 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.gallery-project-imgs p {
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+/* Next Section named Clients starts  */
+
+.section-clients {
+    width: 80%;
+    height: 750px;
+    margin: auto;
+
+}
+
+.client-comment-box {
+    gap: 50px;
+}
+
+.clients-heading {
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin: 122px 0 55px 0;
+}
+
+.commentbox {
+    background-color: var(--color-grey);
+    height: 400px;
+    width: 100%;
+   
+
+}
+
+.commentbox p:first-child {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    width: 70%;
+    margin: auto;
+    margin-top: 25px;
+  
+}
+
+.commentbox-down {
+    margin-top: 130px;
+    padding: 0 30px;
+    display: flex;
+    
+
+}
+
+.cm-stars {
+    gap: 12px;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    top: -5px;
+}
+
+.commentbox p:last-child {
+        text-align: center;
+        font-size: 17px;
+        font-weight: 400;
+        line-height: 27px;
+        height: 54px;
+        margin-left: 96px;
+        margin-right: 108px;
+        position: relative;
+        left: -20px;
+        top: -13px;
+    
+}
+
+/* Last Section named Footer starts  */
+
+
+
+
+footer {
+    width: 80%;
+    height: 720px;
+    margin: auto;
+}
+
+.footer-both-sides {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Footer Left Side  */
+
+.footer-left-side {
+    width: 28%;
+}
+.footer-left-side h3 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 42px;
+    margin-bottom: 35px;
+}
+
+.footer-left-side p {
+    font-size: 17px;
+    line-height: 27px; 
+    font-weight:400;
+    margin-bottom: 60px;
+}
+
+.footer-icons {
+    font-size: 30px;
+    font-weight: 700;
+   
+}
+
+.footer-icons a {
+    color: var(--color-fblack)
+}
+
+/* Footer Right Side  */
+
+
+input { 
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: var(--color-grey);
+    height: 70px;
+    border: none;
+}
+
+textarea {
+    resize: none;
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: var(--color-grey);
+    width: 530px;
+    border: none;
+
+}
+::placeholder {
+    font-size: 17px;
+    line-height: 27px;
+    color:var(--color-black);
+    font-family: 'Epilogue', sans-serif;
+    padding: 22px;
+}
+
+.classform button {
+    padding: 20px;
+    background-color: var(--color-black);
+    width: 235px;
+}
+
+.classform button a {
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    
+    
+
+}
